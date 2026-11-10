@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Emotion Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Facial Emotion Detector</h1>
+        <p id="status">Loading AI Models...</p>
+    </header>
+
+    <main class="container">
+        <div id="video-wrapper">
+            <video id="video" autoplay muted playsinline width="720" height="560"></video>
+        </div>
+    </main>
+
+    <!-- Load face-api.js locally from your project folder -->
+    <script src="face-api.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
